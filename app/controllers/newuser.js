@@ -13,6 +13,9 @@ function doRegister() {
 		if (e.success) {
 			var user = e.users[0];
 			alert('Success:\n' + 'id: ' + user.id + '\n' + 'sessionId: ' + Cloud.sessionId + '\n' + 'first name: ' + user.first_name + '\n' + 'last name: ' + user.last_name);
+			
+			$.newuser.close();
+
 		} else {
 			alert('Error:\n' + ((e.error && e.message) || JSON.stringify(e)));
 		}

@@ -20,3 +20,11 @@
 	borderRadius : 5,
 	backgroundColor : "fff"
 }
+
+"#logout": {
+	top: 20,
+	width : "33%",
+	borderColor: "black",
+	borderRadius : 5,
+	backgroundColor : "fff"
+}

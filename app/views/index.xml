@@ -1,5 +1,5 @@
 <Alloy>
-	<Window class="container" >
+	<Window class="container"  onFocus="update">
 		<View height=Ti.UI.SIZE layout="vertical">
 			<TextField id="username" value="" hintText="Username"></TextField>
 			<TextField id="password" value="" hintText="Password"></TextField>
@@ -7,6 +7,7 @@
 			<Label id="newuser" top="10" text="New user" onClick="doNewUser"></Label>
 
 			<Button id="confirm" title="Login" onClick="doLogin"></Button>
+			<Button id="logout" title="Logout" onClick="doLogout"></Button>
 		</View>
 	</Window>
 </Alloy>
