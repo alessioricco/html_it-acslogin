@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container" >
+		<View height=Ti.UI.SIZE layout="vertical">
+			<TextField id="username" value="" hintText="Username"></TextField>
+			<TextField id="password" value="" hintText="Password"></TextField>
+			
+			<Label id="newuser" top="10" text="New user" onClick="doNewUser"></Label>
+
+			<Button id="confirm" title="Login" onClick="doLogin"></Button>
+		</View>
+	</Window>
+</Alloy>

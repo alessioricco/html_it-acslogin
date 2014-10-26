@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container" >
+		<View height=Ti.UI.SIZE layout="vertical">
+			<TextField id="email" value="" hintText="Email"></TextField>
+			<TextField id="name" value="" hintText="Name"></TextField>
+			<TextField id="lastname" value="" hintText="Lastname"></TextField>
+			<TextField id="password" value="" hintText="Password"></TextField>
+			<TextField id="confirmpassword" value="" hintText="Confirm Password"></TextField>
+			<Label id="cancel" top="10" text="Cancel" onClick="doCancel"></Label>
+			
+			<Button id="confirm" title="Confirm" onClick="doRegister"></Button>
+		</View>
+	</Window>
+</Alloy>
